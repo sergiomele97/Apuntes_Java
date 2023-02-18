@@ -1,0 +1,64 @@
+https://www.jetbrains.com/lp/devecosystem-2022/
+https://jdk.java.net/19/    Descargar openJDK
+
+En la carpeta src esta el codigo fuente.
+
+static es un modificador que indica que el metodo pertenece a la clase y no a los objetos de la clase.
+
+Javadoc es un comentario orientado a crear documentacion tecnica. /** encima de las clases y metodos
+
+|| = or
+&& = and
+
+Atajos teclado IntelliJ
+
+setting keymap comment
+
+\n = salto de linea
+
+() -> System.out.printl("");        Ejemplo de funcion anonima, para cuando le pasas una funcion a un metodo
+
+PAGINA PARA PROBAR ALGORITMOS: CODEWARS
+
+
+
+
+/////////////  Refacotring: Conjuntoo de tecnicas para reducir la complejidad del codigo \\\\\\\\\\\\\\\
+
+# Deuda tecnica, el codigo hace lo que tiene que hacer pero con demasiada complejidad innecesaria
+
+# IntelIj: click derecho --> refactor
+
+1. consolidatedconditional      # Extrae un método fuera
+
+2. consolidateduplicate         # Evita repetir codigo
+
+3. Extractclass                 # Sacamos variables de una clase en las que se acumulan
+
+4. Extractmethod
+
+5. Magic numbers = meter los valores numericos a pelo sin una variable que los represente... Hard coded
+         La solucion es crear una constante. Atributo final: no puede ser modificada.
+
+Es una buena practica no modificar los valores de los parametros que entran a una funcion
+
+# refacotring.guru
+
+
+SwingPack es para crear interfaces de usuario
+aplicaciones tipo evento: Cuando pulso un boton la aplicacionhace algo
+
+
+XML y JSON: Formas de almaccenar datos en un archvio o base de datos
+
+JSON + nuevo y simple viene de javascript object notation
+
+Son formatos de texto
+
+XML empieza indicando la version y el tipo de encoding
+
+
+
+
+
+
